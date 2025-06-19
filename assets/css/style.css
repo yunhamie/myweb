@@ -363,7 +363,7 @@ a:hover {
 }
 
 /*------/ Prelaoder /------*/
-#preloader {
+/* #preloader {
   position: fixed;
   top: 0;
   left: 0;
@@ -372,7 +372,9 @@ a:hover {
   z-index: 9999;
   overflow: hidden;
   background: #fff;
-}
+} */
+
+#preloader { display: none !important; }
 
 #preloader:before {
   content: "";
